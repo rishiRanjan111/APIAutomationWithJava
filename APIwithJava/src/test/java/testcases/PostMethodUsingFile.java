@@ -24,7 +24,7 @@ public class PostMethodUsingFile {
 	 .contentType(ContentType.JSON)
 	 .body(j.toString())
 	 .when()
-	 .post("http://localhost:4000/EmployeeInfo");
+	 .post("http://localhost:3000/EmployeeInfo");
 	
 	System.out.println("Status Code is "+res.statusCode());
 	System.out.println(res.asPrettyString());
